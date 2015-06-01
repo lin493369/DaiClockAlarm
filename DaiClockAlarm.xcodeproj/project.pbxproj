@@ -14,6 +14,12 @@
 		2604B8DB1B1C9A870041CF2F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2604B8DA1B1C9A870041CF2F /* Images.xcassets */; };
 		2604B8DE1B1C9A870041CF2F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2604B8DC1B1C9A870041CF2F /* LaunchScreen.xib */; };
 		2604B8EA1B1C9A870041CF2F /* DaiClockAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2604B8E91B1C9A870041CF2F /* DaiClockAlarmTests.m */; };
+		2604B8FC1B1C9AEB0041CF2F /* AddAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2604B8F51B1C9AEB0041CF2F /* AddAlarmViewController.m */; };
+		2604B8FD1B1C9AEB0041CF2F /* ClockAlarm.m in Sources */ = {isa = PBXBuildFile; fileRef = 2604B8F71B1C9AEB0041CF2F /* ClockAlarm.m */; };
+		2604B8FE1B1C9AEB0041CF2F /* ClockAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2604B8F81B1C9AEB0041CF2F /* ClockAlarmViewController.m */; };
+		2604B8FF1B1C9AEB0041CF2F /* NotificationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2604B8FB1B1C9AEB0041CF2F /* NotificationModel.m */; };
+		2604B9031B1C9B280041CF2F /* ConfigValueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2604B9021B1C9B280041CF2F /* ConfigValueViewController.m */; };
+		2604B9071B1C9DF90041CF2F /* weekDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2604B9061B1C9DF90041CF2F /* weekDayViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		2604B8E31B1C9A870041CF2F /* DaiClockAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaiClockAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2604B8E81B1C9A870041CF2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2604B8E91B1C9A870041CF2F /* DaiClockAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DaiClockAlarmTests.m; sourceTree = "<group>"; };
+		2604B8F31B1C9ACF0041CF2F /* ClockAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockAlarmViewController.h; sourceTree = "<group>"; };
+		2604B8F41B1C9AEB0041CF2F /* AddAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddAlarmViewController.h; sourceTree = "<group>"; };
+		2604B8F51B1C9AEB0041CF2F /* AddAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddAlarmViewController.m; sourceTree = "<group>"; };
+		2604B8F61B1C9AEB0041CF2F /* ClockAlarm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClockAlarm.h; sourceTree = "<group>"; };
+		2604B8F71B1C9AEB0041CF2F /* ClockAlarm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockAlarm.m; sourceTree = "<group>"; };
+		2604B8F81B1C9AEB0041CF2F /* ClockAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClockAlarmViewController.m; sourceTree = "<group>"; };
+		2604B8FA1B1C9AEB0041CF2F /* NotificationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationModel.h; sourceTree = "<group>"; };
+		2604B8FB1B1C9AEB0041CF2F /* NotificationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationModel.m; sourceTree = "<group>"; };
+		2604B9011B1C9B280041CF2F /* ConfigValueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConfigValueViewController.h; sourceTree = "<group>"; };
+		2604B9021B1C9B280041CF2F /* ConfigValueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConfigValueViewController.m; sourceTree = "<group>"; };
+		2604B9051B1C9DF90041CF2F /* weekDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weekDayViewController.h; sourceTree = "<group>"; };
+		2604B9061B1C9DF90041CF2F /* weekDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weekDayViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,8 @@
 		2604B8C11B1C9A870041CF2F = {
 			isa = PBXGroup;
 			children = (
+				2604B9041B1C9B430041CF2F /* Model */,
+				2604B9001B1C9AF30041CF2F /* ViewController */,
 				2604B8CC1B1C9A870041CF2F /* DaiClockAlarm */,
 				2604B8E61B1C9A870041CF2F /* DaiClockAlarmTests */,
 				2604B8CB1B1C9A870041CF2F /* Products */,
@@ -117,6 +137,32 @@
 				2604B8E81B1C9A870041CF2F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2604B9001B1C9AF30041CF2F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2604B9051B1C9DF90041CF2F /* weekDayViewController.h */,
+				2604B9061B1C9DF90041CF2F /* weekDayViewController.m */,
+				2604B8F41B1C9AEB0041CF2F /* AddAlarmViewController.h */,
+				2604B8F51B1C9AEB0041CF2F /* AddAlarmViewController.m */,
+				2604B8F31B1C9ACF0041CF2F /* ClockAlarmViewController.h */,
+				2604B8F81B1C9AEB0041CF2F /* ClockAlarmViewController.m */,
+				2604B9011B1C9B280041CF2F /* ConfigValueViewController.h */,
+				2604B9021B1C9B280041CF2F /* ConfigValueViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		2604B9041B1C9B430041CF2F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2604B8F61B1C9AEB0041CF2F /* ClockAlarm.h */,
+				2604B8F71B1C9AEB0041CF2F /* ClockAlarm.m */,
+				2604B8FA1B1C9AEB0041CF2F /* NotificationModel.h */,
+				2604B8FB1B1C9AEB0041CF2F /* NotificationModel.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +265,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2604B9031B1C9B280041CF2F /* ConfigValueViewController.m in Sources */,
+				2604B8FC1B1C9AEB0041CF2F /* AddAlarmViewController.m in Sources */,
 				2604B8D61B1C9A870041CF2F /* ViewController.m in Sources */,
 				2604B8D31B1C9A870041CF2F /* AppDelegate.m in Sources */,
+				2604B8FE1B1C9AEB0041CF2F /* ClockAlarmViewController.m in Sources */,
 				2604B8D01B1C9A870041CF2F /* main.m in Sources */,
+				2604B8FF1B1C9AEB0041CF2F /* NotificationModel.m in Sources */,
+				2604B8FD1B1C9AEB0041CF2F /* ClockAlarm.m in Sources */,
+				2604B9071B1C9DF90041CF2F /* weekDayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
